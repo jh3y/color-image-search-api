@@ -1,0 +1,38 @@
+{
+  "name": "color-image-search-api",
+  "version": "0.0.1",
+  "description": "api endpoint for searching colors by keyword",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jh3y/color-image-search-api.git"
+  },
+  "keywords": [
+    "color",
+    "search",
+    "api"
+  ],
+  "author": "jh3y <jh3y@users.noreply.github.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jh3y/color-image-search-api/issues"
+  },
+  "homepage": "https://github.com/jh3y/color-image-search-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "unsplash-js": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
