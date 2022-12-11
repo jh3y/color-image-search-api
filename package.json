@@ -28,7 +28,7 @@
   "homepage": "https://github.com/jh3y/color-image-search-api#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "node-fetch": "^2.6.0",
     "unsplash-js": "^5.0.0"
   },
